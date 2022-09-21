@@ -69,9 +69,9 @@ int main () {
     */
 
     // somando os valores de duas variáveis
-    int x = 10, y = 20;
-    int result = x + y;
-    printf("%d\n", result);
+    // int x = 10, y = 20;
+    // int result = x + y;
+    // printf("%d\n", result);
 
     // variables names
     // Good
@@ -94,7 +94,58 @@ int main () {
     // minutesPerHour = 120;
     // PI = 15.45;
 
+    // example operators
+    int sum1 = 100 + 50;
+    int sum2 = sum1 + 250;
+    int sum3 = sum2 + sum2;
+    printf("%d\n", sum1);
+    printf("%d\n", sum2);
+    printf("%d\n", sum3);
 
+    // Arithmetic Operators
+    // + => soma
+    // - => subtração
+    // * => multiplicação
+    // % => Modulo (resto da divisão)
+    // ++ => increment
+    // -- => Decrement
+
+    // Assignment Operators
+    int x1 = 10;
+    x1 += 5;
+    printf("%d\n", x1); // output: 5
+    
+    // test new atribuition
+    printf("testando o operador >>=\n");
+    int x3 = 5;
+    x3 >>= 3;
+    printf("%d\n", x3);
+
+    // using operator of comparation
+    int y = 5;
+    int k = 3;
+    printf("%d\n", y > k);
+
+    // operators logical
+    int myInt2;
+    float myFloat2;
+    double myDouble;
+    char myChar2;
+
+    // size of types
+    printf("size of each data type\n"); 
+    printf("Inteiro\n");
+    printf("%lu \n", sizeof(myInt2));
+ 
+    printf("Ponto flutuante (float)\n");
+    printf("%lu \n", sizeof(myFloat2));
+
+
+    printf("Ponto flutuante (double)\n");
+    printf("%lu \n", sizeof(myDouble));
+ 
+    printf("charactere (char)\n");
+    printf("%lu \n", sizeof(myChar2));
 
 	return 0;
 }
