@@ -31,7 +31,7 @@ request(
 		console.log(allWordThe);
 		console.log(`Exist ${numberOfWordThe} word "the"!`);
 
-        // search JavaScript
+        	// search JavaScript
 		let patternSearchJavaScript = /JavaScript/g;
 		let allWordJavaScript = text.match(patternSearchJavaScript);
 		let numberOfWordJavaScript = allWordJavaScript.length;
